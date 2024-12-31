@@ -1,0 +1,8 @@
+.items{
+    height: 100px;
+    background-color: #28293d;
+    padding: 29px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

@@ -1,5 +1,7 @@
 import Navbar from "../components/navbar";
 import { Roboto } from "next/font/google";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./app.css"
 
 export const metadata = {
   title: "Steven Martinez",

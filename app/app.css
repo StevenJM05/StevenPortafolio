@@ -1,0 +1,32 @@
+.custom-title {
+  color: #fee9ce;
+}
+body {
+  background-color: #440885;
+  color: #43cadb;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #28293d;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .photo img {
+    margin: 0 auto 20px auto;
+  }
+
+  .content {
+    text-align: center;
+  }
+}
